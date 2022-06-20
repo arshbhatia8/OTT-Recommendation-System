@@ -102,7 +102,7 @@ class Discover extends Component {
     } = this.state;
     const { url } = this.props.match;
     const { type } = this.props.match.params;
-    document.title = 'TMDB Clone | Discover';
+    document.title = 'OTT Recommendation System | Discover';
     return (
       <section className='list-item'>
         <Container>

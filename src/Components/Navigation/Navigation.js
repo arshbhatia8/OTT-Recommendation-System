@@ -39,7 +39,7 @@ const Navigation = props => (
   <Nav>
     <Container>
       <NavLogo>
-        <Link to='/'>TMDB Clone</Link>
+        <Link to='/'>OTT Recommendation System</Link>
       </NavLogo>
       <NavigationList />
     </Container>

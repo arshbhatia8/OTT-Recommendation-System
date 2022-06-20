@@ -100,7 +100,7 @@ class ShowTv extends Component {
       lang => lang.iso_639_1 === original_language,
     );
     const [, url] = this.props.match.url.split('/');
-    document.title = `TMDB Clone ${name ? `| ${name}` : ''}`;
+    document.title = ` OTT Recommendation System ${name ? `| ${name}` : ''}`;
     return (
       <section className='section-show'>
         {loading ? (

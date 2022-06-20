@@ -61,7 +61,7 @@ class Movies extends Component {
     const { loading, results, page, total_pages, total_results } = this.state;
     const { url } = this.props.match;
     const { type } = this.props.match.params;
-    document.title = 'TMDB Clone | Movies';
+    document.title = 'OTT Recommendation System | Movies';
     return (
       <section className='list-item'>
         <Container>
